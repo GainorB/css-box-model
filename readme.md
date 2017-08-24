@@ -63,7 +63,7 @@ OR SPECIFY WHICH SIDE TO ADD PADDING TO
   padding-left: 10px;
 ```
 
-🚨 ### CODE ALONG
+### 🚨 CODE ALONG
 
 Let's re-download style.css and place it in the same directory of index.html, overwritting the previous style.css.
 ```
@@ -104,7 +104,7 @@ SETS THE THICKNESS, STYLE, AND COLOR ON ALL FOUR SIDES
   border-left-style: solid;
 ```
 
-🚨 ### CODE ALONG
+### 🚨 CODE ALONG
 
 Your **style.css** should look similar to this:
 ```
@@ -151,7 +151,7 @@ OR SPECIFY WHICH SIDE TO ADD MARGIN TO
   margin-left: 20px;
 ```
 
-🚨 ### CODE ALONG
+### 🚨 CODE ALONG
 
 Your **style.css** should look similar to this:
 ```
