@@ -1,3 +1,7 @@
+/*
+* LINK TO BORDER STYLES: https://github.com/GainorB/css-box-model/blob/master/extras.md#this-diagram-shows-you-the-available-border-styles
+*/
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -10,7 +14,7 @@ body {
   font-size: 100px;
 
   /* YOU CAN CHANGE THE BACKGROUND COLOR IF YOU WISH :) */
-  background-color: grey;
+  background-color: #d9cba3;
 
   /* PLAY AROUND WITH PADDING, BORDER, AND MARGIN */
 

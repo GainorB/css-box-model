@@ -1,6 +1,6 @@
 # CSS Box Model
 
-The browser represents each HTML element as a rectangular box, with the box's **content**, **padding**, **border**, and **margin** built up around one another like the layers of an onion.
+The browser represents every HTML element as a rectangular box, with the box's [**content**](https://github.com/GainorB/css-box-model#content), [**padding**](https://github.com/GainorB/css-box-model#padding), [**border**](https://github.com/GainorB/css-box-model#border), and [**margin**](https://github.com/GainorB/css-box-model#margin) built up around one another like the layers of an onion.
 
 ## OBJECTIVE
 
@@ -15,7 +15,7 @@ The browser represents each HTML element as a rectangular box, with the box's **
 
 In the repository for this lesson there is an **index.html** and **style.css**. Please download both files and place them in the **same** directory. Open the **style.css** in your favorite code editor and open the **index.html** in your web browser (Google Chrome). Uncomment the padding, border, and margin properties in **style.css** and play around with them.
 
-**From there, what did you observe? What is padding, border, or margin?**
+**From there, what did you observe? What is padding, border, or margin? Just think about it.**
 
 ```
   padding: px;
@@ -26,10 +26,9 @@ In the repository for this lesson there is an **index.html** and **style.css**. 
 ## CONTENT
 ![CSS Box Model Content](./readme-assets/box-model1.gif)
 
-The **width** and **height** properties set the width and height of the content box, which is the area in which the content of the box is displayed.
+The **width** and **height** properties set the width and height of the content box, which is the area in which the content of the box is displayed. As seen in the starter file, this area can include text or images.
 
 ```
-/* MAIN IS THE NAME OF THE CLASS WE GAVE THE DIV IN THE INDEX.HTML */
 .main {
   width: 50%;
   height: 100%;
@@ -64,6 +63,23 @@ OR SPECIFY WHICH SIDE TO ADD PADDING TO
   padding-left: 10px;
 ```
 
+🚨 ### CODE ALONG
+
+Let's re-download style.css and place it in the same directory of index.html, overwritting the previous style.css.
+```
+.main {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  font-size: 100px;
+  background-color: #d9cba3;
+
+  /* LETS ADD PADDING */
+  padding: 20px;
+}
+```
+
+
 ## BORDER
 ![CSS Box Model Border](./readme-assets/css-border.gif)
 
@@ -88,7 +104,24 @@ SETS THE THICKNESS, STYLE, AND COLOR ON ALL FOUR SIDES
   border-left-style: solid;
 ```
 
-[Diagram of border styles](../blob/master/extras.md#this-diagram-shows-you-the-available-border-styles)
+🚨 ### CODE ALONG
+
+Your **style.css** should look similar to this:
+```
+.main {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  font-size: 100px;
+  background-color: #d9cba3;
+
+  padding: 20px;
+  /* LETS ADD A BORDER */
+  border: 15px dashed navy;
+}
+```
+
+[Diagram of border styles](https://github.com/GainorB/css-box-model/blob/master/extras.md#this-diagram-shows-you-the-available-border-styles)
 
 ## MARGIN
 ![CSS Box Model Margin](./readme-assets/css-margin.gif)
@@ -118,6 +151,24 @@ OR SPECIFY WHICH SIDE TO ADD MARGIN TO
   margin-left: 20px;
 ```
 
+🚨 ### CODE ALONG
+
+Your **style.css** should look similar to this:
+```
+.main {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  font-size: 100px;
+  background-color: #d9cba3;
+
+  padding: 20px;
+  border: 15px dashed navy;
+  /* LETS ADD MARGIN */
+  margin: 10px;
+}
+```
+
 ## VOCABULARY
 1. **Content:** The "real" content of the element, such as text, an image, etc...
 2. **Padding:** The transparent space outside of the content but inside the border.
@@ -145,7 +196,7 @@ OR SPECIFY WHICH SIDE TO ADD MARGIN TO
 STUDY! Test tomorrow! 😁
 
 ## ADDITIONAL RESOURCES
-1. [More clarity on longhand approach to the CSS box model](../blob/master/extras.md#this-diagram-provides-more-clarity-on-the-longhand-approach-to-the-css-box-model)
+1. [More clarity on longhand approach to the CSS box model](https://github.com/GainorB/css-box-model/blob/master/extras.md#this-diagram-provides-more-clarity-on-the-longhand-approach-to-the-css-box-model)
 2. [Introduction to the CSS box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
 3. [The box model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model)
 4. [MDN Padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
