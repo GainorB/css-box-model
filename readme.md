@@ -88,6 +88,8 @@ SETS THE THICKNESS, STYLE, AND COLOR ON ALL FOUR SIDES
   border-left-style: solid;
 ```
 
+[Diagram of border styles](../blob/master/extras.md#this-diagram-shows-you-the-available-border-styles)
+
 ## MARGIN
 ![CSS Box Model Margin](./readme-assets/css-margin.gif)
 
@@ -128,6 +130,7 @@ OR SPECIFY WHICH SIDE TO ADD MARGIN TO
 2. Let's define the four properties that make up the CSS box model.
 3. How are padding and margin different?
 4. Do you see a pattern between padding and margin? If so, what is it?
+
 🔥🔥 **5.** **We didn't cover this, but in the longhand approach to padding and margin, what do you think each value represents?**
 
 ```
@@ -140,3 +143,11 @@ OR SPECIFY WHICH SIDE TO ADD MARGIN TO
 ## HOMEWORK
 
 STUDY! Test tomorrow! 😁
+
+## ADDITIONAL RESOURCES
+1. [More clarity on longhand approach to the CSS box model](../blob/master/extras.md#this-diagram-provides-more-clarity-on-the-longhand-approach-to-the-css-box-model)
+2. [Introduction to the CSS box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
+3. [The box model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model)
+4. [MDN Padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
+5. [MDN Border](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
+6. [MDN Margin](https://developer.mozilla.org/en-US/docs/Web/CSS/margin)
