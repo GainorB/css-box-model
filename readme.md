@@ -1,26 +1,26 @@
 # CSS Box Model
 
-The browser represents each HTML element as a rectangular box, with the box's content, padding, border, and margin built up around one another like the layers of an onion.
+The browser represents each HTML element as a rectangular box, with the box's **content**, **padding**, **border**, and **margin** built up around one another like the layers of an onion.
 
 ## OBJECTIVE
 
 1. To learn how the CSS box model works
 2. To define the properties that makeup the CSS box model:
-  1. What is content?
-  2. What is padding?
-  3. What is a border?
-  4. What is a margin?
+    * What is content?
+    * What is padding?
+    * What is a border?
+    * What is a margin?
 
-## DO NOW
+## OPENING EXERCISE
 
 In the repository for this lesson there is an **index.html** and **style.css**. Please download both files and place them in the **same** directory. Open the **style.css** in your favorite code editor and open the **index.html** in your web browser (Google Chrome). Uncomment the padding, border, and margin properties in **style.css** and play around with them.
 
 **From there, what did you observe? What is padding, border, or margin?**
 
 ```
-  /* padding: px; */
-  /* border: width border-style color; */
-  /* margin: px; */
+  padding: px;
+  border: width border-style color;
+  margin: px;
 ```
 
 ## CONTENT
@@ -118,8 +118,25 @@ OR SPECIFY WHICH SIDE TO ADD MARGIN TO
 
 ## VOCABULARY
 1. **Content:** The "real" content of the element, such as text, an image, etc...
-2. **Padding:** The transparent space between outside of the content but inside the border.
-3. **Border:** A border that goes around the padding and content but sits inside of the margin.
-4. **Margin:** Used to separate the element from its neighbors by creating transparent space outside of the border.
+2. **Padding:** The transparent space outside of the content but inside the border.
+3. **Border:** The area that goes around the padding and content but sits inside of the margin.
+4. **Margin:** The area used to separate the element from its neighbors by creating transparent space outside of the border.
 
-## ACCESSMENTS
+## EXIT EXERCISE
+
+1. At this point, has your understanding of content, padding, border or margin changed?
+2. Let's define the four properties that make up the CSS box model.
+3. How are padding and margin different?
+4. Do you see a pattern between padding and margin? If so, what is it?
+🔥🔥 **5.** **We didn't cover this, but in the longhand approach to padding and margin, what do you think each value represents?**
+
+```
+  padding: px? px? px? px?;
+  margin: px? px? px? px?;
+``` 
+
+## ANY QUESTIONS?
+
+## HOMEWORK
+
+STUDY! Test tomorrow! 😁
