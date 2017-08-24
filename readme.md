@@ -78,7 +78,7 @@ Let's re-download style.css and place it in the same directory of index.html, ov
   padding: 20px;
 }
 ```
-### Did anyone notice a change? Raise your hand if you noticed a change. Did you see how it looked like the area inside the box got bigger?
+### Did anyone notice a change? What happened to the area outside of the content box?
 
 ## BORDER
 ![CSS Box Model Border](./readme-assets/css-border.gif)
@@ -120,7 +120,7 @@ Your **style.css** should look similar to this:
   border: 15px dashed navy;
 }
 ```
-### Did anyone notice a change? A border change should be noticeable, did anyone try adding a border to only one side?
+### Did anyone notice a change? A border change should be noticeable, did anyone try adding a border to only one side or a cool border-style?
 
 [Diagram of border styles](https://github.com/GainorB/css-box-model/blob/master/extras.md#this-diagram-shows-you-the-available-border-styles)
 
@@ -169,7 +169,7 @@ Your **style.css** should look similar to this:
   margin: 10px;
 }
 ```
-### Did anyone notice a change? Margin can be tricky to see at times, but did you notice how margin created space around the element?
+### Did anyone notice a change? Margin can be tricky to see at times, what did adding margin do?
 
 ## VOCABULARY
 1. **Content:** The "real" content of the element, such as text, an image, etc...
